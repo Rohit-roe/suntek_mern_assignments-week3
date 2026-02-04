@@ -1,0 +1,19 @@
+genererate a package json
+npm init -y
+
+create server.js
+install ,import exp,create http server,assign port
+
+connect to MongoDB
+
+    REST API    -mongodb native driver-->mongodb server
+    REST API    -mongo -mongodb ODM -
+
+    1.Installing mongoose-npm install mongoose
+    2.create Schema of resourse
+    3.create Model of that Schema
+    4.perform DB operations on that Model
+
+    if any extra properties are added then strict:throw throws an error
+    timestamps:true this give two timestamps created at and modified at
+    

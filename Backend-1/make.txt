@@ -1,0 +1,11 @@
+to create a backend 
+1. create a package.json using -npm init -y
+status code is used to see if the server is working properly or not
+nodemon is used to auto restart server on code changes
+
+only post and put request have a body
+get and delete request do not have a body
+
+midddleware is used to check whether there is a body present for the request or not
+one of them is
+app.use(exp.json())

@@ -1,0 +1,62 @@
+GET http://127.0.0.1:3000/user-api/users
+
+###
+POST http://127.0.0.1:3000/user-api/users
+Content-Type: application/json
+
+{
+    "id":200,
+    "name":"vikas",
+    "age":21
+}
+
+
+###
+PUT http://127.0.0.1:3000/user-api/users
+Content-Type: application/json
+
+{
+    "id":200,
+    "name":"rr",
+    "age":19
+}
+
+### read a user by Id
+GET http://127.0.0.1:3000/user-api/users/200
+
+###
+DELETE http://127.0.0.1:3000/user-api/users/100
+
+### get for product
+GET http://127.0.0.1:3000/product-api/products
+
+### get product by id
+GET http://127.0.0.1:3000/product-api/products/100
+
+###get product by brand
+GET http://127.0.0.1:3000/product-api/products/samsung
+
+### post
+POST http://127.0.0.1:3000/product-api/products
+Content-Type: application/json
+
+{
+    "productId":100,
+    "name":"mobile",
+    "price":80000,
+    "brand":"samsung"
+}
+
+### put by id
+PUT http://127.0.0.1:3000/product-api/products/100
+Content-Type: application/json
+
+{
+    "productId":100,
+    "name":"ipad",
+    "price":100000,
+    "brand":"apple"
+}
+
+### delete by id
+DELETE http://127.0.0.1:3000/product-api/products/100
